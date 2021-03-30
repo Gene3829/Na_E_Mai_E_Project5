@@ -1,0 +1,145 @@
+.hidden {
+	display: none;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+	margin: 0 auto;
+	background-color: #efefef;
+	display: flex;
+	flex-direction: column;
+	max-width: 100%;
+}
+
+#mainHeader {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.logo {
+	margin: 20px auto;
+	background-color: #5CDB95;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 200px;
+	font-weight: bold;
+	font-size: 23px;
+	width: 371px;
+}
+
+.sectionNav {
+	position: sticky;
+	top: 0;
+	text-align: center;
+	line-height: 70px;
+	font-weight: bold;
+	font-size: 23px;
+	background: #379683;
+	border-top: solid 3px #05386B;
+	border-bottom: solid 3px #05386B;
+}
+
+.headerNav {
+	display: none;
+}
+
+.hero {
+	text-align: center;
+	line-height: 400px;
+	font-weight: bold;
+	font-size: 23px;
+	background-color: #5CDB95;
+}
+
+.products {
+	flex: 1 1 auto;
+}
+
+.box {
+	margin: 70px auto;
+	text-align: center;
+	line-height: 400px;
+	font-weight: bold;
+	font-size: 23px;
+	background-color: #5CDB95;
+	border-radius: 10px;
+	width: 400px;
+}
+
+#bottomBar {
+	text-align: center;
+	line-height: 30px;
+	font-weight: bold;
+	font-size: 23px;
+	background-color: #05386B;
+	color: #fff;
+}
+
+#mainFooter {
+	display: none;
+}
+
+@media screen and (min-width: 1080px) {
+
+	#mainHeader {
+		flex-direction: row;
+		justify-content: flex-start;
+	}
+
+	.logo {
+		margin-left: 40px;
+		margin-right: 40px;
+		border-radius: 10px;
+		line-height: 150px;
+		width: 300px;
+	}
+
+	.headerNav {
+		display: block;
+		margin: auto;
+		margin-right: 40px;
+		text-align: center;
+		line-height: 150px;
+		font-weight: bold;
+		font-size: 23px;
+		background-color: #379683;
+		height: 150px;
+		width: 100%;
+		border-radius: 10px;
+	}
+
+	.sectionNav {
+		display: none;
+	}
+
+	.hero {
+		text-align: center;
+		line-height: 700px;
+		font-weight: bold;
+		font-size: 23px;
+		background-color: #5CDB95;
+	}
+
+	.products {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		margin: 70px 0px 70px 0px;
+	}
+
+	#mainFooter {
+		display: block;
+		text-align: center;
+		line-height: 400px;
+		font-weight: bold;
+		font-size: 23px;
+		background-color: #379683;
+		border-top: 3px solid #05386B;
+		color: #000;
+	}
+
+}
