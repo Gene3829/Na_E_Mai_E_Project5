@@ -1,6 +1,6 @@
 # Responsive Web Design: BASIC RESPONSIVE LAYOUT
 
-This is a single-web-paged basic responsice layout example for responsive web design. It is opened from mobile mode first, and then when it goes over the certain size of the width, the page switches to PC mode.
+This is a single-web-paged basic responsive layout example for responsive web design. It is opened from mobile mode first, and then when it goes over the certain size of the width, the page switches to PC mode.
 
 Prerequisites: [Sublime Text 3](https://www.sublimetext.com/3)
 
